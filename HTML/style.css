@@ -64,26 +64,86 @@ label > input {
 
 label > input + img {
     cursor: pointer;
-    border: 1.5px solid grey;
+    border: 1.5px solid #46b8da;
     border-radius: 20px;
     background-color: #FAF9F5;
 }
 
 label:hover > input + img {
     cursor: pointer;
-    border: 1.5px solid grey;
+    border: 1.5px solid #46b8da;
     border-radius: 20px;
     background-color: #F0EDE6;
 }
 
 label > input:checked + img {
-    border:1.5px solid black;
+    border:1.5px solid #46b8da;
     background-color: #EBE8E1;
 }
 
-.btn {
+.btn-primary {
     width: 40%;
     font-size: 17px;
     margin-top:20%;
     margin-bottom:30%;
+}
+
+/*edit-sivun css*/
+
+.container-fluid {
+    width:40%;
+    margin-left:30%;
+    margin-right:30%;
+    text-align: left;
+}
+
+.form {
+    display:flex;
+    padding-top:5%;
+}
+
+#existing-questions {
+    padding:5%;
+    text-align: left;
+}
+
+#existing-questions p {
+    font-size: 17px;
+    padding-top:3%;
+    display: inline-flex;
+}
+
+#existing-questions a {
+    margin:1%;
+    display: inline;
+    color:lightgray;
+}
+
+#popover-content {
+    display: none;
+}
+
+.glyphicon-remove:hover {
+    color:crimson;
+}
+
+.glyphicon-pencil:hover {
+    color:darkblue;
+}
+
+#deploy-buttons {
+    text-align: center;
+}
+header {
+    height:90px;
+    background-color:#46b8da;
+    margin-bottom:5%;
+    padding:3%;
+}
+
+header a {
+    border:1.5px solid;
+    padding:1%;
+    margin:5%;
+    color:darkslategrey;
 }
