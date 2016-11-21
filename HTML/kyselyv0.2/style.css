@@ -1,0 +1,78 @@
+/* Kysely v0.02*/
+
+body {
+    margin:0;
+    top:0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FCFCFC;
+    text-align: center;
+}
+
+h1 {
+    padding:10%;
+}
+
+h2 {
+    padding-top:100px;
+    padding-bottom:10%;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+div  {
+    padding:2px;
+}
+
+.hymyt {
+    display: inline-flex;
+    white-space:nowrap;
+    padding:0;
+    max-width: 100%;
+}
+
+.question {
+    text-align: center;
+    max-width: 100%;
+}
+
+img {
+    max-width: 80%;
+    height:auto;
+    padding:10%;
+}
+
+label > input {
+    visibility: hidden;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+
+label > input + img {
+    cursor: pointer;
+    border: 1.5px solid grey;
+    border-radius: 20px;
+    background-color: #FAF9F5;
+}
+
+label:hover > input + img {
+    cursor: pointer;
+    border: 1.5px solid grey;
+    border-radius: 20px;
+    background-color: #F0EDE6;
+}
+
+label > input:checked + img {
+    border:1.5px solid black;
+    background-color: #EBE8E1;
+    
+}
+
+h3 {
+    padding-top:5%;
+}
+
+.btn {
+    margin-top:10%;
+    margin-bottom:30%;
+}
