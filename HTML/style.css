@@ -1,4 +1,4 @@
-/* Kysely v0.02*/
+/*Kysely v0.03*/
 
 body {
     margin:0;
@@ -9,29 +9,43 @@ body {
 }
 
 h1 {
-    padding:10%;
+    padding-top:10%;
 }
 
 h2 {
-    padding-top:100px;
+    padding-top:20%;
     padding-bottom:10%;
     font-size: 19px;
     font-weight: bold;
 }
+
+h3 {
+    padding-top:5%;
+}
+
 
 div  {
     padding:2px;
 }
 
 .hymyt {
+    padding:0;
     display: inline-flex;
     white-space:nowrap;
-    padding:0;
-    max-width: 100%;
+}
+
+.hymyt label {
+    min-width:20%;
+}
+
+.hymyt label span
+{
+    display: block;
+    width: 100%;
+    padding: 5%;
 }
 
 .question {
-    text-align: center;
     max-width: 100%;
 }
 
@@ -42,7 +56,7 @@ img {
 }
 
 label > input {
-    visibility: hidden;
+    display: none;
     border: 2px solid transparent;
     border-radius: 20px;
 }
@@ -65,14 +79,11 @@ label:hover > input + img {
 label > input:checked + img {
     border:1.5px solid black;
     background-color: #EBE8E1;
-    
-}
-
-h3 {
-    padding-top:5%;
 }
 
 .btn {
-    margin-top:10%;
+    width: 40%;
+    font-size: 17px;
+    margin-top:20%;
     margin-bottom:30%;
 }
