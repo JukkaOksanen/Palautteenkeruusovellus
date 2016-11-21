@@ -1,0 +1,62 @@
+/*Kysely v0.01*/
+
+body {
+    margin:0;
+    top:0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FCFCFC;
+    text-align: center;
+}
+
+h2 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+div  {
+    margin-left:18%;
+    margin-right:18%;
+    margin-top:10%;
+    margin-bottom:10%;
+    padding:2px;
+}
+
+#hymyt {
+    padding:0;
+}
+
+.question {
+    text-align: center;
+}
+
+img {
+    height:100px;
+    padding:20px;
+}
+
+label > input {
+    visibility: hidden;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+
+label > input + img {
+    cursor: pointer;
+    border: 1.5px solid grey;
+    border-radius: 20px;
+    background-color: #FAF9F5;
+}
+
+label:hover > input + img {
+    cursor: pointer;
+    border: 1.5px solid grey;
+    border-radius: 20px;
+    background-color: #F0EDE6;
+}
+
+label > input:checked + img {
+    border:1.5px solid black;
+    background-color: #EBE8E1;
+    
+}
