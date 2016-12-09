@@ -1,4 +1,4 @@
-/*Kysely v0.05*/
+/*Kysely v1.0*/
 
 body {
     margin:0;
@@ -6,6 +6,18 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #FCFCFC;
     text-align: center;
+}
+
+.container {
+    text-align: center;
+
+}
+
+header {
+    background-image: url(KyselyTausta9.jpg);
+    background-size: cover;
+    height:150px;
+    
 }
 
 h1 {
@@ -88,66 +100,34 @@ label > input:checked + img {
 .btn-primary {
     width: 40%;
     font-size: 17px;
-    margin-top:20%;
+    margin-top:10%;
+}
+
+#success {
+    margin-top:2%;
     margin-bottom:30%;
-}
-
-/*edit-sivun css*/
-
-.container-fluid {
+    margin-left: 30%;
+    margin-right: 30%;
     width:40%;
-    margin-left:30%;
-    margin-right:30%;
-    text-align: left;
 }
 
-.form {
-    display:flex;
-    padding-top:5%;
+
+#footer {
+    text-align: right;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    height:10px;
+    padding:2%;
 }
 
-#existing-questions {
-    padding:5%;
-    text-align: left;
+#footer a {
+    color: whitesmoke;
+    text-decoration:none;
 }
 
-#existing-questions p {
-    font-size: 17px;
-    padding-top:3%;
-    display: inline-flex;
-}
-
-#existing-questions a {
-    margin:1%;
-    display: inline;
+#footer a:hover {
     color:lightgray;
-}
-
-#popover-content {
-    display: none;
-}
-
-.glyphicon-remove:hover {
-    color:crimson;
-}
-
-.glyphicon-pencil:hover {
-    color:darkblue;
-}
-
-#deploy-buttons {
-    text-align: center;
-}
-header {
-    height:90px;
-    background-color:#46b8da;
-    margin-bottom:5%;
-    padding:3%;
-}
-
-header a {
-    border:1.5px solid;
-    padding:1%;
-    margin:5%;
-    color:darkslategrey;
+    text-decoration:none;
 }
